@@ -1,0 +1,27 @@
+﻿@model IList<MvcApplication3.Models.User>
+
+@{
+    ViewBag.Title = "Users";
+   // Layout = "~/Areas/Default/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Users</h2>
+
+<p>
+    @foreach (var user in Model)
+    {
+        <div class="item">
+            <span class="id">
+                @user.ID
+            </span>
+            <span class="email">
+                @user.Email
+            </span>
+            <span class="activateDate">
+                @user.AddedDate
+            </span>
+        </div>
+    }
+</p>
+
+<a href="@Url.Action("Register", "User", new { id = "1" })">Добавить юзера</a>

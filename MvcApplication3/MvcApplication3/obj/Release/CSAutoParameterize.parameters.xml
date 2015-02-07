@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ConnectionString-Web.config Connection String" description="ConnectionString Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\chist_000\documents\visual studio 2012\Projects\MvcApplication3\MvcApplication3\App_Data\DB2.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\chist_000\\documents\\visual\ studio\ 2012\\Projects\\MvcApplication3\\MvcApplication3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="DB2ConnectionString-Web.config Connection String" description="DB2ConnectionString Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\DB2.mdf;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\chist_000\\documents\\visual\ studio\ 2012\\Projects\\MvcApplication3\\MvcApplication3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DB2ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
